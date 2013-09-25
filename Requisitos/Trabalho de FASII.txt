@@ -1,0 +1,11 @@
+Comunicação com web service para preenchimento de endereços e Interoperabilidade com redes sociais:
+Tecnologia abordada:
+Serviços SOAP com JAX-WS
+
+1 - Será necessario entrar com um numero de Cep valido para consulta de endereços;
+2 - Efetuar a comunicação com o Web service usando serviços SOAP;
+3 - Criação de modulo de conexão Web Service usando uma estrutura de chave de busca;
+4 - Criação de interface com Usuario para entrada de dados para consulta;
+5 - Tempo de resposta da consulta inferior a 20 segundos;
+6 - Disponibilizar um serviço Web Service para consulta de Notas de alunos;
+7 - Efetuar a integração atraves de um Web Service com redes sociais, facebook, twitter e google+;
