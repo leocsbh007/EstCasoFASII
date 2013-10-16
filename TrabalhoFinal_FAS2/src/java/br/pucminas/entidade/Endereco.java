@@ -4,32 +4,40 @@
  */
 package br.pucminas.entidade;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  *
  * @author ramon.pereira
  */
+@XmlRootElement
 public class Endereco {
     
-    private String logradouro; 
+    private String endereco; 
     private String bairro; 
     private String complemento; 
     private String cidade; 
     private String CEP; 
     private String UF; 
     private String numero; 
+    private String id; 
+    private String meso; 
+    private String micro; 
+    private String latitude; 
+    private String longitude; 
 
     /**
-     * @return the logradouro
+     * @return the endereco
      */
-    public String getLogradouro() {
-        return logradouro;
+    public String getEndereco() {
+        return endereco;
     }
 
     /**
-     * @param logradouro the logradouro to set
+     * @param endereco the endereco to set
      */
-    public void setLogradouro(String logradouro) {
-        this.logradouro = logradouro;
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     /**
@@ -115,5 +123,79 @@ public class Endereco {
     public void setNumero(String numero) {
         this.numero = numero;
     }
-        
+
+    /**
+     * @return the id
+     */
+    public String getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the meso
+     */
+    public String getMeso() {
+        return meso;
+    }
+
+    /**
+     * @param meso the meso to set
+     */
+    public void setMeso(String meso) {
+        this.meso = meso;
+    }
+
+    /**
+     * @return the micro
+     */
+    public String getMicro() {
+        return micro;
+    }
+
+    /**
+     * @param micro the micro to set
+     */
+    public void setMicro(String micro) {
+        this.micro = micro;
+    }
+
+    /**
+     * @return the latitude
+     */
+    public String getLatitude() {
+        return latitude;
+    }
+
+    /**
+     * @param latitude the latitude to set
+     */
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    /**
+     * @return the longitude
+     */
+    public String getLongitude() {
+        return longitude;
+    }
+
+    /**
+     * @param longitude the longitude to set
+     */
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
+    
+    
+    
+
+    
 }
